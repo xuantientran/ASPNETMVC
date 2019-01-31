@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{634A54D1-0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example1", "Example1", "{59520D3D-B376-4986-9309-2BF8F4CF384C}"
 	ProjectSection(SolutionItems) = preProject
-		Data\Example1\dsnTree.txt = Data\Example1\dsnTree.txt
+		Data\Example1\data1.txt = Data\Example1\data1.txt
+		Data\Example1\data2.txt = Data\Example1\data2.txt
+		Data\Example1\dsnTree3.txt = Data\Example1\dsnTree3.txt
 		Data\Example1\result.txt = Data\Example1\result.txt
 	EndProjectSection
 EndProject
