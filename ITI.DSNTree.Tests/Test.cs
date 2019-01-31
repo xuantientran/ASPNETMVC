@@ -137,7 +137,17 @@ namespace ITI.DSNTree.Tests
 
 		static void CheckFileEquals(string path, string text)
 		{
-			File.ReadAllText(path).Trim().Should().Be(text.Trim());
+			StringBuilder sb = new StringBuilder();
+			using (StreamReader lecture = new StreamReader(path))
+			{
+				string line;
+
+				while ((line = lecture.ReadLine()) != null)
+				{
+					sb.AppendLine(line);
+				}
+			}
+			sb.ToString().Trim().Should().Be(text.Trim());
 		}
 	}
 }
